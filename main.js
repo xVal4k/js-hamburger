@@ -19,11 +19,12 @@ btnCloseMenu.addEventListener("click", function () {
 
 let btnOpenMenu = document.querySelector (".fa-bars");
 let btnCloseMenu = document.querySelector(".close");
+let hamburgerMenu = document.querySelector(".hamburger-menu");
 
 btnOpenMenu.addEventListener("click", function(){
-    document.querySelector(".hamburger-menu").classList.add("active")
+    hamburgerMenu.classList.add("active")
 });
 
 btnCloseMenu.addEventListener("click", function(){
-    document.querySelector(".hamburger-menu").classList.remove("active")
+    hamburgerMenu.classList.remove("active")
 });
